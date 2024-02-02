@@ -678,6 +678,14 @@ video {
   flex-direction: row;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -694,10 +702,36 @@ video {
   gap: 1.25rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-md {
@@ -773,6 +807,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -802,4 +841,24 @@ video {
 
 .opacity-75 {
   opacity: 0.75;
+}
+
+.\[\&\:not\(\.usericon\)\]\:flex-wrap:not(.usericon) {
+  flex-wrap: wrap;
+}
+
+.\[\&\:not\>\(\.usericon\)\]\:flex-wrap:not>(.usericon) {
+  flex-wrap: wrap;
+}
+
+.\[\&\:not\>\(div\)\]\:flex-wrap:not>(div) {
+  flex-wrap: wrap;
+}
+
+.\[\&\:not\>\(usericon\)\]\:flex-wrap:not>(usericon) {
+  flex-wrap: wrap;
+}
+
+.\[\&\>\:not\(\.usericon\)\]\:flex-wrap>:not(.usericon) {
+  flex-wrap: wrap;
 }
