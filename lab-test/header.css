@@ -1,0 +1,117 @@
+.header{
+   
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
+.div{
+    top: 85PX;
+    position: absolute;
+    left: 5%;
+    
+    width: 15%;
+    height: 40px;
+}
+#Licon{
+    background-color: beige;
+    position: absolute;
+    top: 8px;
+    width: 5%;
+   height: 20px;
+}
+#location{
+    
+    padding-left: 5px;
+    position: absolute;
+    left: 5%;
+    color: black;
+    background-color: beige;
+    float: right;
+    width: 95%;
+    height: 38px;
+
+}
+#Livecon{
+    position: absolute;
+    left: 93%;
+    top: 8px;
+    width: 5%;
+   height: 20px;
+} #icon {
+    cursor: pointer;
+}
+
+#selectionBox {
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding: 20px;
+    top: 40px;
+    background-color:white;
+    border: 2px solid #333;
+}
+
+#options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#options li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.div2{
+    position: absolute;
+    left: 21%;
+    top: 85Px;
+    height:40px;
+    width: 40%;
+    
+}
+#sd2{
+ padding-left: 5px;   
+width: 100%;
+height: 40px;
+background-color: beige;
+color: #333;
+}
+#search{
+    position: absolute;
+    left: 93%;
+    top: 8px;
+    width: 5%;
+   height: 50%;
+   
+
+}
+.div3{
+    position: relative;
+    top: 10px;
+    height: 60%;
+  
+    width: 30%;
+    float: right;
+}
+#imgthunder{
+    width: 3%;
+    height: 3%;
+}
+#pera{
+    position:absolute;
+    top: -1px;
+    left: 3%;
+}
+#buttun-book{
+    width: 60%;
+    height: 100%;
+    
+    position:absolute;
+    top: -.3px;
+    left: 35%;
+    color: white;
+    background-color: rgb(255, 104, 58);
+}
